@@ -1,0 +1,34 @@
+.main-container{
+    height:80px;
+    background-color: rgb(255, 255, 255);
+    align-self:center;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.shop-span{
+    font-size:20px
+}
+
+.column{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nets-logos{
+    margin-right: 10px;
+}
+
+.nets-logos:hover{
+    color:cornflowerblue;
+    cursor: pointer;
+}
+
+.logo{
+    background-image: "logo.pdf";
+}
+
+.logo:hover{
+    cursor:pointer;
+}
