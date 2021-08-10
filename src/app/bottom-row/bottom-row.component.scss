@@ -1,0 +1,38 @@
+.main-container{
+    border-top:2px white solid;
+    background-image: url('../../assets/imgs/new.jpg');
+    background-repeat: no-repeat;
+    background-position:right;
+    height:500px
+}
+
+.row-discount{
+    color:grey;
+    text-transform: uppercase;
+    margin-bottom:5px;
+}
+
+.row-header{
+    font-size: 20pt;
+    text-transform: uppercase;
+}
+
+.row-button{
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border:2px black solid;
+    color:white;
+    background-color: black;
+    font-size: 10px;
+}
+
+.row-button:hover{
+    background-color: white;
+    color:black;
+}
+
+
+.wrapper{
+    padding-top:10%;
+    margin-left: 50px;
+}

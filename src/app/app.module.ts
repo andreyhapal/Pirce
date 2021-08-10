@@ -11,13 +11,21 @@ import { MatCarouselModule } from '@ngmodule/material-carousel';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { SliderContainerComponent } from './slider-container/slider-container.component';
 import { MiddleRowComponent } from './middle-row/middle-row.component';
+import { PanelContainerComponent } from './panel-container/panel-container.component';
+import { BottomRowComponent } from './bottom-row/bottom-row.component';
+import { NewCollectionComponent } from './new-collection/new-collection.component';
+import { ItemCardComponent } from './item-card/item-card.component';
 @NgModule({
   declarations: [
     AppComponent,
     TopRowComponent,
     HeaderRowComponent,
     SliderContainerComponent,
-    MiddleRowComponent
+    MiddleRowComponent,
+    PanelContainerComponent,
+    BottomRowComponent,
+    NewCollectionComponent,
+    ItemCardComponent
   ],
   imports: [
     BrowserModule,

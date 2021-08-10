@@ -21,22 +21,27 @@
     flex-wrap: wrap;
 }
 
+.logos-container{
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 .logos{
     margin-right: 10px;
-    color:white;
 }
 
 .logos:hover{
-    color:cornflowerblue;
+    color:yellow;
     cursor: pointer;  
 }
 
 .labels{
-    color:white;
+    color:white !important;
     border-bottom: white;
 }
 
-a {
+li.nav-item {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
@@ -48,7 +53,7 @@ a {
     position: relative;
   }
 
-a:after {    
+li.nav-item:after {    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -61,7 +66,20 @@ a:after {
     width: 0;
 }
 
-a:hover:after { 
+a{
+    text-decoration: none;
+}
+
+li.nav-item:hover:after { 
     width: 100%; 
     left: 0; 
+}
+
+.toggler-button{
+    color:white;
+}
+
+.menu{
+    z-index: 3;
+    background-color: black;
 }
