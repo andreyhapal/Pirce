@@ -1,0 +1,31 @@
+.main-container{
+    height:600px;
+    width: 100%;
+    background-color: black;
+    border-top:3px white solid;
+    display: flex;
+}
+
+.col-border-right{
+    height:600px;
+    border-right: 1px grey solid;
+}
+
+.nav-col{
+    color:white;
+    letter-spacing: 00.05em;
+    padding-left: 50px;
+    padding-top:50px;
+}
+
+.nav-list{
+    padding-left:50px;
+    list-style: none;
+}
+
+.nav-list-item{
+    color:gray;
+    letter-spacing: 00.05em;
+    padding-bottom:8px;
+    font-size: 12px;
+}
