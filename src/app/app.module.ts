@@ -19,6 +19,12 @@ import { NewCollectionComponent } from './new-collection/new-collection.componen
 import { ItemCardComponent } from './item-card/item-card.component';
 import { NewsMailingComponent } from './news-mailing/news-mailing.component';
 import { FooterComponent } from './footer/footer.component';
+import { NewIncomeComponent } from './new-income/new-income.component';
+import { IncomeContainerComponent } from './income-container/income-container.component';
+import { NewTopicComponent } from './new-topic/new-topic.component';
+import { DeliveryRowComponent } from './delivery-row/delivery-row.component';
+import { NewsCardComponent } from './news-card/news-card.component';
+import { NewsContainerComponent } from './news-container/news-container.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +37,13 @@ import { FooterComponent } from './footer/footer.component';
     NewCollectionComponent,
     ItemCardComponent,
     NewsMailingComponent,
-    FooterComponent
+    FooterComponent,
+    NewIncomeComponent,
+    IncomeContainerComponent,
+    NewTopicComponent,
+    DeliveryRowComponent,
+    NewsCardComponent,
+    NewsContainerComponent
   ],
   imports: [
     BrowserModule,

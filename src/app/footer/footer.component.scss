@@ -1,26 +1,24 @@
 .main-container{
-    height:600px;
     width: 100%;
     background-color: black;
     border-top:3px white solid;
-    display: flex;
+    display: block;
 }
 
 .col-border-right{
-    height:600px;
     border-right: 1px grey solid;
 }
 
 .nav-col{
     color:white;
     letter-spacing: 00.05em;
-    padding-left: 50px;
     padding-top:50px;
 }
 
 .nav-list{
-    padding-left:50px;
     list-style: none;
+    padding-left: 0px;
+    margin-right: 0px;
 }
 
 .nav-list-item{
@@ -28,4 +26,48 @@
     letter-spacing: 00.05em;
     padding-bottom:8px;
     font-size: 12px;
+}
+
+.wrapper{
+    width: 90%;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+input[type=text], select, textarea {
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    border-bottom: 1px solid white;
+    background-color: black;
+    color:white;
+    padding:10px;
+}
+  
+
+.mail-input{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.link{
+    display: flex;
+    padding:10px;
+    flex-wrap: nowrap;
+    align-self: center;
+    text-decoration: none;
+    color:white;
+    letter-spacing: 00.05em;
+    border-bottom: 1px white solid;
+}
+
+.footer-col{
+    display:flex;
+    border-top:1px gray solid;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    height:100px;
 }
