@@ -25,6 +25,9 @@ import { NewTopicComponent } from './new-topic/new-topic.component';
 import { DeliveryRowComponent } from './delivery-row/delivery-row.component';
 import { NewsCardComponent } from './news-card/news-card.component';
 import { NewsContainerComponent } from './news-container/news-container.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule }   from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -52,7 +55,9 @@ import { NewsContainerComponent } from './news-container/news-container.componen
     MatExpansionModule,
     MatCarouselModule.forRoot(),
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
