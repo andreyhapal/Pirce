@@ -12,21 +12,23 @@ import {MatInputModule} from '@angular/material/input';
 
 import {MatExpansionModule} from '@angular/material/expansion';
 import { SliderContainerComponent } from './slider-container/slider-container.component';
-import { MiddleRowComponent } from './middle-row/middle-row.component';
-import { PanelContainerComponent } from './panel-container/panel-container.component';
-import { BottomRowComponent } from './bottom-row/bottom-row.component';
-import { NewCollectionComponent } from './new-collection/new-collection.component';
-import { ItemCardComponent } from './item-card/item-card.component';
-import { NewsMailingComponent } from './news-mailing/news-mailing.component';
+import { MiddleRowComponent } from './main/middle-row/middle-row.component';
+import { PanelContainerComponent } from './main/panel-container/panel-container.component';
+import { BottomRowComponent } from './main/bottom-row/bottom-row.component';
+import { NewCollectionComponent } from './main/new-collection/new-collection.component';
+import { ItemCardComponent } from './main/income-container/item-card/item-card.component';
+import { NewsMailingComponent } from './main/news-mailing/news-mailing.component';
 import { FooterComponent } from './footer/footer.component';
-import { NewIncomeComponent } from './new-income/new-income.component';
-import { IncomeContainerComponent } from './income-container/income-container.component';
-import { NewTopicComponent } from './new-topic/new-topic.component';
-import { DeliveryRowComponent } from './delivery-row/delivery-row.component';
+import { NewIncomeComponent } from './main/new-income/new-income.component';
+import { IncomeContainerComponent } from './main/income-container/income-container.component';
+import { NewTopicComponent } from './main/new-topic/new-topic.component';
+import { DeliveryRowComponent } from './main/delivery-row/delivery-row.component';
 import { NewsCardComponent } from './news-card/news-card.component';
-import { NewsContainerComponent } from './news-container/news-container.component';
+import { NewsContainerComponent } from './main/news-container/news-container.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule }   from '@angular/common/http';
+import { MainPageComponent } from './main/main-page/main-page.component';
+import { ItemsShopComponent } from './shop/items-shop/items-shop.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,9 @@ import { HttpClientModule }   from '@angular/common/http';
     NewTopicComponent,
     DeliveryRowComponent,
     NewsCardComponent,
-    NewsContainerComponent
+    NewsContainerComponent,
+    MainPageComponent,
+    ItemsShopComponent
   ],
   imports: [
     BrowserModule,

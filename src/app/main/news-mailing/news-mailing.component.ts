@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { HttpService } from '../services/mail.service';
+import { HttpService } from '../../services/mail.service';
 
 @Component({
   selector: 'news-mailing',
